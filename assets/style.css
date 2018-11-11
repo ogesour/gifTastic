@@ -1,0 +1,25 @@
+body{
+    background-color: #191919
+}
+
+.gif{
+    width: 230px;
+    height: 250px;
+}
+
+.gif:hover{
+    border: solid 2px yellow;
+}
+
+.ratingText{
+    color: #CAC4C3;
+}
+
+#gifFavs{
+    color: white;
+}
+
+#favArea{
+    background-color: #CAC4C3;
+    border: white solid 2px;
+}

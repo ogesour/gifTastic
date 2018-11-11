@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>GIF App</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <h3 class="navbar-brand">MORE GIFS</h3>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>       
+            <form class="form-inline">
+                <!-- <input id='gifInput' class="form-control mr-sm-2" type="search" placeholder="Search Catagory" aria-label="Search"> -->
+                <!-- <button id='newGifValue' class="btn btn-outline-success my-2 my-sm-0" type="submit">Go</button> -->
+                
+            </form>
+        </div>
+    </nav>
+
+    <div class='container'>
+        <div class="jumbotron bg-info text-white">
+            <h1 class="display-3 text-center">Some of my favorite shows as Gifs</h1>
+            <p class="lead text-center">With a Cat button of course</p>
+        </div>
+        <div class="input-group mb-3">
+            <input id = 'gifInput' type="text" class="form-control" placeholder="Add GIF Catagories" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button id = 'newGifValue' class="btn btn-outline-warning" disabled type="button">Go!</button>
+            </div>
+        </div>
+
+    <div id='buttonsArea' class='mb-4'></div>
+    
+    <button id='myFavoriteGifs' class="btn btn-outline-success my-2 my-sm-0 mb-2" type="submit">Move To Favorites</button>
+    <button id='doneButton' class="btn btn-outline-danger my-2 my-sm-0" type="submit">DONE</button>
+    <br><br>
+
+    <div id = 'favArea'>
+        <h3 id = 'gifFavs'>My Favorites: </h3>
+        <div id = 'dropFavGifs'></div>
+    </div>
+
+    <div class = 'row'>
+        <div class = 'col-md-12'>
+                <div id='gifArea' class='row'></div>
+        </div>
+        <div id = 'favorites' class = 'col-md-4'>
+            <h1 class = 'text-center'></h1>
+            <!-- <div id = 'dropFavGifs'></div> -->
+        </div>
+            
+    </div><!--End Of Row-->
+        
+
+    </div><!--End of CONTAINER-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <script src='assets/logic.js'></script>
+</body>
+
+</html>
